@@ -1,2 +1,4 @@
 # Vendor-Management-System
-In this project i have created a vendor management system 
+In this project i have created a vendor management system, in this project there a user can create a vendor using the api,and can also view a specific vendor by using the vendor id that yo
+you get after creating the vendor to create a vendor through api one can send a Post request to the api and note that Vendor_name,vendor-address,vendor_code,contact_details are the necessary fields.We can also retrive all the vendor information by sending a get request to the api, if you waant to retrive a specific vendor's information that can also be done by using the vendor_id make sure you give the vendor_id in the body of the get request.
+we can also create a purchase order and to do that you can use the purchase order api and make sure to include the vendor_id,items and quantity im using vendor_id to associate the purchase order to a specific vendor.we can also get all the purchase 

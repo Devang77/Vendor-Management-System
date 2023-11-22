@@ -1,6 +1,6 @@
 # Vendor-Management-System
 **Use the Postman to Test the Api Endpoint**
-To see the output go to http://127.0.0.1:8000/admin
+To see the output go to the following site on the browser http://127.0.0.1:8000/admin
 
 In this project i have created a vendor management system, in this project there a user can create a vendor using the api,and can also view a specific vendor by using the vendor id that yo
 you get after creating the vendor to create a vendor through api one can send a Post request to the api and note that Vendor_name,vendor-address,vendor_code,contact_details are the necessary fields.We can also retrive all the vendor information by sending a get request to the api, if you waant to retrive a specific vendor's information that can also be done by using the vendor_id make sure you give the vendor_id in the body of the get request,one can also update the information of the vendor by giving the name of the vendor and the changes you want to make like contact_detail etc in the body of the put request, and also delete a vendor from the system but make sure to give the name of the vendor you want to delete in the body of the request.

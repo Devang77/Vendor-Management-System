@@ -5,15 +5,19 @@ we can also create a purchase order and to do that you can use the purchase orde
 the last feature of this project is the performance evaluation like avgerage response time,average quality rating and many more as mentioned in the assignment to create a specific vendor's 
 performance metrics just give the vendor's id(i.e vendor_id) and you can calculate the performance metrics of the purchase order whoes status is completed,one can also retrive the performance metrics of a specific vendor's by giving the vendor_id 
 The Following are the api Endpoints 
+
 ***Note:- Ihave cerated two api endpoints for vendor as i was not able to make two get request from the same api endpoint**
 **Vendor Api endpoint**
+
 1)http://127.0.0.1:8000/All_VendorApiView/:-this endpoint gives the information of all the vendors in the system
 2)http://127.0.0.1:8000/VendorApiView/:- this endpoint gives the information of a specific vendor in the system and this the and it is also used to perform the update delete functionality
 
 **Performance metrics Api Endpoint**
+
 3)http://127.0.0.1:8000/Performance_metricsApiView/:- This is the endpoint which is used for performance metrics
 
 ***Note:- Ihave cerated two api endpoints for purchase order as i was not able to make two get request from the same api endpoint**
 **Purchase Order Api Endpoint**
+
 4)http://127.0.0.1:8000/All_Purchase_orderApiView/:-this endpoint gives the information of all the purchase order in the system
 5)http://127.0.0.1:8000/Specific_Purchase_orderApiView/:- this endpoint gives the information of a specific purchase_order in the system and it is also used to perform the update delete functionality.
